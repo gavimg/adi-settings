@@ -1,5 +1,5 @@
 import React from 'react';
-import './SettingsApp.css';
+import './SettingsApp.scss';
 
 const SettingsApp: React.FC = () => {
   return (
