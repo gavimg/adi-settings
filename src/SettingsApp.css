@@ -1,0 +1,13 @@
+.settings-app {
+  padding: 2rem;
+  background: #faf5ff;
+  min-height: 100vh;
+}
+
+.settings-app__title {
+  margin: 0 0 0.5rem;
+}
+
+.settings-app__description {
+  margin: 0;
+}

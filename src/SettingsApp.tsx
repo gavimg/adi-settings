@@ -1,10 +1,11 @@
 import React from 'react';
+import './SettingsApp.css';
 
 const SettingsApp: React.FC = () => {
   return (
-    <div style={{ padding: '2rem', background: '#faf5ff', minHeight: '100vh' }}>
-      <h1>Settings Module</h1>
-      <p>This is the adi-settings micro-frontend.</p>
+    <div className="settings-app">
+      <h1 className="settings-app__title">Settings Module</h1>
+      <p className="settings-app__description">This is the adi-settings micro-frontend.</p>
     </div>
   );
 };
